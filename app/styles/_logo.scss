@@ -1,14 +1,21 @@
-$font-size: 80px;
+$font-size: 85px;
 
-.logo-text {
+.border-box .top-half {
+  padding: 10px;
+  border-bottom: 1px solid black;
+}
+
+.logo-text h1 {
   font-family: $ch-pro;
   font-weight: 600;
   font-size: $font-size;
-  letter-spacing: 2px;
+  letter-spacing: 5px;
   font-variant: small-caps;
+  margin: 0;
+  text-align: center;
 }
 
 .logo-trans {
   font-variant: normal;
-  font-size: $font-size/2;
+  font-size: $font-size/1.85;
 }

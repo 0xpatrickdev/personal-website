@@ -1,7 +1,7 @@
-  .wf-loading body {
-    visibility: hidden;
-  }
+.wf-loading div {
+  visibility: hidden;
+}
 
-  .wf-active body, .wf-inactive body {
-    visibility: visible;
-  }
+.wf-active div, .wf-inactive div {
+  visibility: visible;
+}

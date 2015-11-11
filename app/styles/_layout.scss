@@ -1,6 +1,6 @@
 body {
-  background: #fafafa;
-  color: #333;
+  background: $bg-color;
+  color: $primary-text-color;
 }
 
 html, body {
@@ -8,14 +8,4 @@ html, body {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.border-box .top-half {
-  padding: 10px;
-  border-bottom: 1px solid black;
-}
-
-.border-box .bottom-half {
-  padding: 10px;
-  display: block;
 }
