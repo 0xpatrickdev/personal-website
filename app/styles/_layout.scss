@@ -13,13 +13,14 @@
   justify-content: space-around;
 }
 
-.parent {
+.flex-container .parent {
   display: flex;
   height: 300px; /* Or whatever */
 }
 
-.child {
-  width: 100px;  /* Or whatever */
-  height: 100px; /* Or whatever */
+.flex-container .child {
+  width: 200px;  /* Or whatever */
+  height: 150px; /* Or whatever */
   margin: auto;  /* Magic! */
+  padding: 5px;
 }

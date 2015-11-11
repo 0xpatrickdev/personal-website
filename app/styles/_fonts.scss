@@ -1,0 +1,42 @@
+/* Fonts */
+$chaparral-display: "chaparral-pro-display",sans-serif;
+$proxima-nova: "proxima-nova",sans-serif;
+$proxima-nova-soft: "proxima-nova-soft",sans-serif;
+
+/** @extends **/
+.child.px-nova {
+	font-family: $proxima-nova;
+}
+.child.px-nova-soft {
+	font-family: $proxima-nova-soft;
+}
+.child.ch-pro-display {
+	font-family: $chaparral-display;
+}
+
+/** Font Weights **/
+
+.thin {
+	font-weight: 100;
+}
+.light {
+	font-weight: 300;
+}
+.regular {
+	font-weight: 400;
+}
+.medium {
+	font-weight: 500;
+}
+.semibold {
+	font-weight: 600;
+}
+.bold {
+	font-weight: 700;
+}
+.extrabold {
+	font-weight: 800;
+}
+.black {
+	font-weight: 900;
+}
