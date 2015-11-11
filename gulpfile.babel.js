@@ -16,7 +16,7 @@ gulp.task('views', () => {
 });
 
 gulp.task('styles', () => {
-  return gulp.src('app/styles/index.scss')
+  return gulp.src('app/styles/main.scss')
     .pipe($.plumber())
     .pipe($.sourcemaps.init())
     .pipe($.sass.sync({

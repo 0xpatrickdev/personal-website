@@ -1,13 +1,17 @@
 // Normalize
-@import 'bower_components/normalize-css-normalize.css';
+@import script(src='/bower_components/normalize-css/normalize.css');
 
 // Fonts (from google)
 // @import url(https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700);
+
+//Wait for typekit to load page
+@import 'typekit';
 
 // Definings
 @import 'variables';
 @import 'fonts';
 
 // Globals
-@import 'main';
 @import 'layout';
+@import 'menu';
+@import 'logo';

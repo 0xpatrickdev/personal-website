@@ -1,17 +1,17 @@
 /* Fonts */
-$chaparral-display: "chaparral-pro-display",sans-serif;
-$proxima-nova: "proxima-nova",sans-serif;
-$proxima-nova-soft: "proxima-nova-soft",sans-serif;
+$ch-pro: "chaparral-pro-display",sans-serif;
+$px-nova: "proxima-nova",sans-serif;
+$px-nova-soft: "proxima-nova-soft",sans-serif;
 
 /** @extends **/
-.child.px-nova {
-	font-family: $proxima-nova;
+.px-nova {
+	font-family: $px-nova;
 }
-.child.px-nova-soft {
-	font-family: $proxima-nova-soft;
+.px-nova-soft {
+	font-family: $px-nova-soft;
 }
-.child.ch-pro-display {
-	font-family: $chaparral-display;
+.ch-pro {
+	font-family: $ch-pro;
 }
 
 /** Font Weights **/
@@ -39,4 +39,36 @@ $proxima-nova-soft: "proxima-nova-soft",sans-serif;
 }
 .black {
 	font-weight: 900;
+}
+
+h1 {
+  font-weight: 800;
+}
+
+h2 {
+  font-weight: 700;
+}
+
+h3 {
+  font-weight: 600;
+}
+
+h4 {
+  font-weight: 500;
+}
+
+h5 {
+  font-weight: 400;
+}
+
+h6 {
+  font-weight: 300;
+}
+
+p {
+  font-weight: 100;
+}
+
+.black h1 {
+  font-weight: 900;
 }
