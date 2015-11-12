@@ -1,31 +1,46 @@
+//layout configs
 .border-box .bottom-half {
   display: block;
 }
-
 .menu {
   display: flex;
 }
+.item {
+	margin: 15px 10px 15px 10px;
+	position: relative;
+	display: inline-block;
+}
 
+//font styles
 .item a {
 	font-family: $px-nova-soft;
-  font-weight: 100;
-  font-size: 115%;
+  font-weight: 500;
+  font-size: 120%;
   color: $primary-text-color;
   text-decoration: none;
+  font-variant: small-caps;
 }
 
-.item {
+//hover underline effects
+$thickness: 2px;
+
+.item:after {
+	content: '';
+	display: block;
 	margin: 5px auto;
-	padding: 10px 15px 10px 15px;
-	
-	&:hover {
-		background-color: $bg-lighter-6;
-		a {
-			//color: $bg-color;
-			color: $primary-text-color;
-			font-weight: 300;
-		}
-	}
-
+	height: $thickness;
+	width: 0px;
+	background: transparent;
+	transition: width .5s ease, background-color .5s ease;
 }
-
+.item:hover:after {
+	background-color: $primary-text-color;
+	width: 70%;
+}
+/*
+// border in between items
+.menu .item + .item {
+	border-left: $thickness/2 solid $primary-text-color;
+	height: 50%;
+}
+*/
