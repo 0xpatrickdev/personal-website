@@ -1,25 +1,27 @@
 {
-  "name": "92co",
-  "version": "1.0.0",
-  "description": "92co",
+  "name": "personal-website",
+  "version": "1.0.1",
+  "description": "personal-website",
   "main": "index.js",
   "scripts": {
-    "start": "gulp",
-    "test": ""
+    "start": "gulp serve:dist",
+    "build": "gulp",
+    "dev": "gulp serve",
+    "test": "gulp serve:test"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pcooney10/92co.git"
+    "url": "git+https://github.com/pcooney10/personal-website.git"
   },
   "author": "Patrick Cooney",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/pcooney10/92co/issues"
+    "url": "https://github.com/pcooney10/personal-website/issues"
   },
-  "homepage": "https://github.com/pcooney10/92co#readme",
+  "homepage": "https://github.com/pcooney10/personal-website#readme",
   "private": true,
   "engines": {
-    "node": ">=0.12.0"
+    "node": ">=5.11.1"
   },
   "devDependencies": {
     "babel-core": "^5.5.6",
