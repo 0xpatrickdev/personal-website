@@ -2,5 +2,6 @@ doctype html
 html.no-js(lang='')
 	include ./partials/_head.jade
 	body
-		block content
-		include ./partials/_foot.jade
+		.body-wrapper
+			block content
+			include ./partials/_foot.jade
