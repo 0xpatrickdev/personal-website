@@ -1,0 +1,15 @@
+.fa {
+  padding: 5px;
+}
+
+i.fa.fa-twtr {
+	&:before {
+		content: "\f099";
+	}
+}
+
+i.fa.fa-lnkd {
+	&:before {
+		content: "\f0e1";
+	}
+}
