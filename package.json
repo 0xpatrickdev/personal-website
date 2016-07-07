@@ -6,7 +6,7 @@
   "scripts": {
     "start": "gulp serve:dist",
     "build": "gulp",
-    "dev": "gulp serve",
+    "watch": "gulp serve",
     "test": "gulp serve:test"
   },
   "repository": {
